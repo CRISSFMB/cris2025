@@ -13,10 +13,13 @@ html {
 
 body {
     margin: 0;
+    font-size: 1.6rem;
+    
 }
 
 a {
     text-decoration: none;
+    cursor: pointer;
 }
 
 ul {
@@ -35,4 +38,11 @@ img {
     max-width: 1300px;
     /* min-width: 320px; */
     margin: 0 auto;
+}
+
+
+.gridGlobalStyles {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
 }

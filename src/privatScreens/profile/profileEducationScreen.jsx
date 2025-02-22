@@ -3,7 +3,7 @@
 
 
 
-export const profileEducationScreen = () => {
+export const ProfileEducationScreen = () => {
     return (
         <h1>profileEducationScreen</h1>
     )
