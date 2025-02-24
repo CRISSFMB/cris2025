@@ -27,13 +27,13 @@ import styled from "styled-components"
 
 
 const SideBarW = styled.div` 
-   background-color: #000000;
+   background-color: #e6e6e6;
     width: 100%;
-    height: 100%;
+    height: auto;
     padding: 1rem;
 
     p{
-        color: white;
+        color: #0a0606;
         text-align: center;
     }
    img{

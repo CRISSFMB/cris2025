@@ -14,6 +14,7 @@ html {
 body {
     margin: 0;
     font-size: 1.6rem;
+    background-color: #dde1e7;
     
 }
 
@@ -36,7 +37,6 @@ img {
 .container {
     width: 90%;
     max-width: 1300px;
-    /* min-width: 320px; */
     margin: 0 auto;
 }
 
@@ -45,4 +45,8 @@ img {
     display: grid;
     grid-template-rows: auto 1fr auto;
     min-height: 100vh;
+}
+
+.boxshadow{
+    box-shadow: -5px -5px 9px #ffffff73, 5px 5px 7px #5e687949;
 }
