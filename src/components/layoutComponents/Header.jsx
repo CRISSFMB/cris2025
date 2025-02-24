@@ -8,7 +8,7 @@ position: absolute;
 height: auto;
 width: 100%;
 background-color: #dde1e7;
- @media (min-width: ${breakpoints.tablet}) {
+ @media (min-width: ${breakpoints.laptop}) {
     position: relative;
     margin-top: 0.2rem;
     padding: 1rem;

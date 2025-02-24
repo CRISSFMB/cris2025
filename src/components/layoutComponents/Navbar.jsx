@@ -11,7 +11,7 @@ const Wrapper = styled.nav`
     align-items: center;
     border-radius: 2rem;
 
-    @media (min-width: ${breakpoints.tablet}) {
+    @media (min-width: ${breakpoints.laptop}) {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
@@ -26,7 +26,7 @@ const Wrapper = styled.nav`
         padding: 1rem;
         text-align: center;
 
-        @media (min-width: ${breakpoints.tablet}) {
+        @media (min-width: ${breakpoints.laptop}) {
             margin-right: 1;
             padding: 0.5rem 1.5rem;
         }
@@ -42,7 +42,7 @@ const Wrapper = styled.nav`
         flex-direction: column;
         gap: 2rem;
         margin-top: 3rem;
-        @media (min-width: ${breakpoints.tablet}) {
+        @media (min-width: ${breakpoints.laptop}) {
             flex-direction: row;
             gap: 1rem;
             margin-top: 0;
@@ -57,7 +57,7 @@ const Wrapper = styled.nav`
         text-align: center;
         margin-top: 2rem;
         text-transform: uppercase;
-        @media (min-width: ${breakpoints.tablet}) {
+        @media (min-width: ${breakpoints.laptop}) {
             margin-top: 0;
             margin-left: 2rem;
         }

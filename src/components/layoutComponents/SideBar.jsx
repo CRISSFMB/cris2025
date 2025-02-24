@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom"
 
 export const SideBar = () => {
     return (
-        <SideBarW>
+        <SideBarW className="boxshadow">
 
             <p>Juan Ignacio</p>
 
@@ -13,10 +13,10 @@ export const SideBar = () => {
 
 
             <Nav>
-                <NavLink to="*">Información Personal</NavLink>
-                <NavLink to="about-me">Sobre mí</NavLink>
-                <NavLink to="education">Estudios</NavLink>
-                <NavLink to="work-experience">Experiencia de trabajo</NavLink>
+                <NavLink className={"boxshadow"} to="*">Información Personal</NavLink>
+                <NavLink className={"boxshadow"} to="about-me">Sobre mí</NavLink>
+                <NavLink className={"boxshadow"} to="education">Estudios</NavLink>
+                <NavLink className={"boxshadow"} to="work-experience">Experiencia de trabajo</NavLink>
             </Nav>
 
         </SideBarW>
@@ -42,6 +42,7 @@ const SideBarW = styled.div`
      border-radius: 50%;
      object-fit: cover;
      margin-top: 1rem;
+     box-shadow: -4px -3px 8px 0px #c90909, 5px 3px 5px 0px #0e0f0f;
    }
 
 `
