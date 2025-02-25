@@ -1,8 +1,6 @@
 import { NavLink } from "react-router-dom"
 
 
-
-
 export const SideBar = () => {
     return (
         <SideBarW className="boxshadow">

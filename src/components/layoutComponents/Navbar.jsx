@@ -10,6 +10,7 @@ const Wrapper = styled.nav`
     padding: 1rem;
     align-items: center;
     border-radius: 2rem;
+    display: none;
 
     @media (min-width: ${breakpoints.laptop}) {
         flex-direction: row;
