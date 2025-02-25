@@ -45,7 +45,7 @@ gap: 4rem;
 export const HomeScreen = () => {
     return (
 
-        <Wrapper className="section-oportunity container">
+        <Wrapper className="section-oportunity">
             <div className="text-container">
                 <p className='first-paragraph'>La oportunidad que buscas, en la plataforma que necesitas.</p>
                 <p className='second-paragraph'>Encuentra empleos, oportunidades laborales y profesionales para impulsar tu carrera.</p>
