@@ -6,15 +6,8 @@ import { AboutScreen } from "../../publicScreens/about/AboutScreen"
 import { JobsScreens } from "../../publicScreens/jobs/JobsScreens"
 import { ProfileRouter } from "../../privatScreens/routers/ProfileRouter"
 import { HomeScreen } from "../../publicScreens/home/HomeScreen"
-
-
 import styled from "styled-components"
 
-
-const MainWrapper = styled.main`
-    display: flex;
-    align-items: center;
-    `
 export const Main = () => {
     return (
         <MainWrapper >
@@ -30,3 +23,9 @@ export const Main = () => {
         </MainWrapper>
     )
 }
+
+const MainWrapper = styled.main`
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    `
